@@ -18,4 +18,4 @@ print(worst_performing)
 #Get prediction results
 gs_file = auto.get_examples_of(best_performing[0][0])[0]
 print(gs_file)
-print(auto.predict_gs(link))
+print(auto.predict_gs(gs_file))
